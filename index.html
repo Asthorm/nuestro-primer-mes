@@ -821,23 +821,23 @@
 
     @media (max-width: 768px) {
       .hero-card { padding: 28px 18px 26px; }
-      .heart-stage { min-height: 310px; }
-      .heart-scene { height: 300px; }
-      .heart-box { width: 220px; height: 200px; }
-      .heart-half { width: 110px; height: 200px; }
-      .heart-shape { width: 220px; height: 200px; }
-      .heart-half.right .heart-shape { left: -110px; }
+      .heart-stage { min-height: 380px; }
+      .heart-scene { height: 360px; }
+      .heart-box { width: 200px; height: 180px; }
+      .heart-half { width: 100px; height: 180px; }
+      .heart-shape { width: 200px; height: 180px; }
+      .heart-half.right .heart-shape { left: -100px; }
       .heart-label { font-size: 2.5rem; }
-      .heart-seam { top: 34px; height: 110px; }
-      .burst-photo { width: 82px; height: 106px; }
-      .photo-3 { width: 94px; height: 126px; }
-      .heart-scene.opened .heart-half.left { transform: translateX(-78px) rotateY(-82deg) rotateZ(-6deg); }
-      .heart-scene.opened .heart-half.right { transform: translateX(78px) rotateY(82deg) rotateZ(6deg); }
-      .heart-scene.opened .photo-1 { transform: translate(calc(-50% - 110px), calc(-50% - 42px)) rotate(-8deg) scale(1); }
-      .heart-scene.opened .photo-2 { transform: translate(calc(-50% - 110px), calc(-50% + 34px)) rotate(-3deg) scale(1); }
+      .heart-seam { top: 30px; height: 100px; }
+      .burst-photo { width: 75px; height: 95px; }
+      .photo-3 { width: 85px; height: 115px; }
+      .heart-scene.opened .heart-half.left { transform: translateX(-70px) rotateY(-82deg) rotateZ(-6deg); }
+      .heart-scene.opened .heart-half.right { transform: translateX(70px) rotateY(82deg) rotateZ(6deg); }
+      .heart-scene.opened .photo-1 { transform: translate(calc(-50% - 95px), calc(-50% - 35px)) rotate(-8deg) scale(1); }
+      .heart-scene.opened .photo-2 { transform: translate(calc(-50% - 95px), calc(-50% + 30px)) rotate(-3deg) scale(1); }
       .heart-scene.opened .photo-3 { transform: translate(-50%, calc(-50% - 8px)) rotate(0deg) scale(1.02); }
-      .heart-scene.opened .photo-4 { transform: translate(calc(-50% + 110px), calc(-50% - 42px)) rotate(8deg) scale(1); }
-      .heart-scene.opened .photo-5 { transform: translate(calc(-50% + 110px), calc(-50% + 34px)) rotate(3deg) scale(1); }
+      .heart-scene.opened .photo-4 { transform: translate(calc(-50% + 95px), calc(-50% - 35px)) rotate(8deg) scale(1); }
+      .heart-scene.opened .photo-5 { transform: translate(calc(-50% + 95px), calc(-50% + 30px)) rotate(3deg) scale(1); }
       .section-card { padding: 28px 18px; }
       .envelope-wrap { height: 390px; }
       .envelope-base { width: min(92vw, 420px); height: 250px; top: 56%; }
@@ -845,6 +845,45 @@
       .envelope-letter { width: min(86vw, 370px); height: 230px; padding: 18px 16px; top: 56%; }
       .letter-content h3 { font-size: 2.2rem; }
       .letter-content p { font-size: 0.92rem; }
+    }
+
+    @media (max-width: 480px) {
+      .hero-title { font-size: 1.8rem; }
+      .hero-subtitle { font-size: 1rem; }
+      .hero-text { font-size: 0.9rem; }
+      .heart-stage { min-height: 320px; }
+      .heart-scene { height: 300px; }
+      .heart-box { width: 160px; height: 140px; }
+      .heart-half { width: 80px; height: 140px; }
+      .heart-shape { width: 160px; height: 140px; }
+      .heart-half.right .heart-shape { left: -80px; }
+      .heart-label { font-size: 2rem; }
+      .heart-seam { top: 24px; height: 80px; }
+      .burst-photo { width: 60px; height: 75px; }
+      .photo-3 { width: 68px; height: 90px; }
+      .heart-scene.opened .heart-half.left { transform: translateX(-56px) rotateY(-82deg) rotateZ(-6deg); }
+      .heart-scene.opened .heart-half.right { transform: translateX(56px) rotateY(82deg) rotateZ(6deg); }
+      .heart-scene.opened .photo-1 { transform: translate(calc(-50% - 75px), calc(-50% - 28px)) rotate(-8deg) scale(1); }
+      .heart-scene.opened .photo-2 { transform: translate(calc(-50% - 75px), calc(-50% + 24px)) rotate(-3deg) scale(1); }
+      .heart-scene.opened .photo-3 { transform: translate(-50%, calc(-50% - 6px)) rotate(0deg) scale(1.02); }
+      .heart-scene.opened .photo-4 { transform: translate(calc(-50% + 75px), calc(-50% - 28px)) rotate(8deg) scale(1); }
+      .heart-scene.opened .photo-5 { transform: translate(calc(-50% + 75px), calc(-50% + 24px)) rotate(3deg) scale(1); }
+      .continue-btn { padding: 12px 24px; font-size: 0.9rem; }
+      .section-title { font-size: 1.8rem; }
+      .section-text { font-size: 0.9rem; }
+      .memory-card { min-height: 280px; }
+      .memory-overlay { padding: 10px 12px; }
+      .memory-overlay h3 { font-size: 0.9rem; }
+      .memory-overlay p { font-size: 0.75rem; }
+      .memory-back-content h3 { font-size: 1.8rem; }
+      .memory-back-content p { font-size: 0.85rem; }
+      .envelope-wrap { height: 340px; }
+      .envelope-base { width: min(95vw, 380px); height: 220px; }
+      .envelope-flap { width: min(95vw, 380px); height: 140px; top: calc(56% - 110px); }
+      .envelope-letter { width: min(90vw, 340px); height: 200px; padding: 16px 14px; }
+      .letter-content h3 { font-size: 1.8rem; }
+      .letter-content p { font-size: 0.85rem; margin-bottom: 10px; }
+      .footer { font-size: 0.85rem; padding: 8px 15px 35px; }
     }
   </style>
 </head>
